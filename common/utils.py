@@ -20,7 +20,7 @@ from sqlalchemy.engine.url import URL
 from azure.ai.formrecognizer import DocumentAnalysisClient
 from azure.core.credentials import AzureKeyCredential
 
-from langchain.embeddings import AzureOpenAIEmbeddings
+from langchain.embeddings.azure_openai  import AzureOpenAIEmbeddings
 from langchain.docstore.document import Document
 from langchain.llms import AzureOpenAI
 from langchain.chat_models import AzureChatOpenAI
